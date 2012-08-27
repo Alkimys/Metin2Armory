@@ -24,7 +24,6 @@ $heaume = $data['vnum'];
     $hn_bonus_7 = $data['attrtype6'];
     $hn_bonus_7_v = $data['attrvalue6'];
 
-   // if ($heaume > "12619" && $heaume < "12630"){ $heaume_css = "images/char/heaumes/c/1.png"; }
 
 $requette1 = ("SELECT * FROM player.item_proto WHERE vnum LIKE '$heaume' LIMIT 1");
 $sql1 = mysql_query($requette1) or die(mysql_error());

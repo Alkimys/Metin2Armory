@@ -1,6 +1,6 @@
 <?php
-require('includes-character/php/includes.php'); //On inclue les array dans le fichier créé pour ça
-require('includes-character/php/header.php'); //On inclue les éléments du head dont on a besoin
+require('includes-armory/php/includes.php'); //On inclue les array dans le fichier créé pour ça
+require('includes-armory/php/header.php'); //On inclue les éléments du head dont on a besoin
 
             $perso=$_GET['name']; //On nomme la variable qui contient le nom du joueur
 
@@ -80,7 +80,7 @@ require('includes-character/php/header.php'); //On inclue les éléments du head
     <tr>
         
         <td valign="middle" align="center" rowspan="5" colspan="2"><img  src="<?php echo"$image"; ?>" alt="" /></td>
-        <td rowspan="1" colspan="2" valign="right" align="center"><?php include('includes-character/php/stuff.php') ?></td>
+        <td rowspan="1" colspan="2" valign="right" align="center"><?php include('includes-armory/php/stuff.php') ?></td>
     </tr>
 
     <tr valign="right">

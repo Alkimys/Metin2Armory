@@ -202,14 +202,14 @@
   );
 
   $image_array = array(
-    '0' => 'includes-character/img/pers/class_war_m.png',
-    '1' => 'includes-character/img/pers/class_ninja_w.png',
-    '2' => 'includes-character/img/pers/class_sura_m.png',
-    '3' => 'includes-character/img/pers/class_shaman_w.png',
-    '4' => 'includes-character/img/pers/class_war_w.png',
-    '5' => 'includes-character/img/pers/class_ninja_m.png',
-    '6' => 'includes-character/img/pers/class_sura_w.png',
-    '7' => 'includes-character/img/pers/class_shaman_m.png',
+    '0' => 'includes-armory/img/pers/class_war_m.png',
+    '1' => 'includes-armory/img/pers/class_ninja_w.png',
+    '2' => 'includes-armory/img/pers/class_sura_m.png',
+    '3' => 'includes-armory/img/pers/class_shaman_w.png',
+    '4' => 'includes-armory/img/pers/class_war_w.png',
+    '5' => 'includes-armory/img/pers/class_ninja_m.png',
+    '6' => 'includes-armory/img/pers/class_sura_w.png',
+    '7' => 'includes-armory/img/pers/class_shaman_m.png',
   );
 
 ?>

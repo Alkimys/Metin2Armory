@@ -1,4 +1,5 @@
 <?php
+// On inclue les fichiers requits
     require('includes.php');
     require('heaumes.php');
     require('armes.php');
@@ -10,7 +11,7 @@
     require('boucles_oreilles.php');
 ?>
 
-<div id="inventaire">
+<div id="inventaire"> <!-- L'inventaire est créé -->
     <?php if($name_arme != '') { ?>
     <div onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" style="cursor:pointer;" title="
         <table>
@@ -171,7 +172,7 @@
     }
     ?>
     </table>
-    " id="data-arme"><img src="includes-character/img/items/<?php echo "$arme"; ?>.png" alt="" /></div>
+    " id="data-arme"><img src="includes-armory/img/items/<?php echo "$arme"; ?>.png" alt="" /></div>
      <?php
     }
     ?>
@@ -307,7 +308,7 @@
             <td colspan='2' align='center'><?php echo "$hrace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$heaume"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$heaume"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -473,7 +474,7 @@
     }
     ?>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$armure"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$armure"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -608,7 +609,7 @@
             <td colspan='2' align='center'><?php echo "$bbrace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$bouclier"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$bouclier"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -739,7 +740,7 @@
             <td colspan='2' align='center'><?php echo "$brarace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$bracelet"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$bracelet"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -871,7 +872,7 @@
             <td colspan='2' align='center'><?php echo "$colrace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$collier"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$collier"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -1004,7 +1005,7 @@
             <td colspan='2' align='center'><?php echo "$chaurace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$chaussures"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$chaussures"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
@@ -1137,8 +1138,8 @@
             <td colspan='2' align='center'><?php echo "$boorace"; ?></td>
         </tr>
     </table>
-    " style="cursor:pointer;"><img src="includes-character/img/items/<?php echo "$boucles"; ?>.png" alt="" /></div>
+    " style="cursor:pointer;"><img src="includes-armory/img/items/<?php echo "$boucles"; ?>.png" alt="" /></div>
     <?php
     }
     ?>
-</div>
+</div> <!-- On ferme l'inventaire -->
